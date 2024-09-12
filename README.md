@@ -1,9 +1,56 @@
+# KC Tech Support
+Author: Evan Harmon
+
+## Setup & Installation
+
+### Requirements
+
+- Homebrew
+- Python
+- [Taskfile](https://taskfile.dev/)
+
+### Bootstrap
+Install required software to run other project installers and task runners
+`task bootstrap`
+
+### Install
+Install required dependencies
+`task install`
+
+## Usage
+project_usage
+
+### Task Runner
+[Taskfile](https://taskfile.dev/)
+Uses 'Taskfile.yaml'
+
+Alternatively, you can use `just` via the `justfile`
+
+### Testing
+
+#### Validate
+`task validate`
+
+#### Security
+`task security`
+
+#### Linting, Formatting, Conventions, Style Guidelines, etc
+
+- .pre-commit-config.yaml
+- .shellcheckrc
+- .ansible-lint-ignore
+
+### Building, Deploying, & CI/CD
+
+## Todo
+[todo.md](<kc-tech-support/todo.md>)
+
 # 🚀 AstroWind
 
 <img src="https://raw.githubusercontent.com/onwidget/.github/main/resources/astrowind/lighthouse-score.png" align="right"
      alt="AstroWind Lighthouse Score" width="100" height="358">
 
-🌟 _Most *starred* & *forked* Astro theme in 2022 & 2023_. 🌟
+🌟 _Most _starred_ & _forked_ Astro theme in 2022 & 2023_. 🌟
 
 **AstroWind** is a free and open-source template to make your website using **[Astro 4.0](https://astro.build/) + [Tailwind CSS](https://tailwindcss.com/)**. Ready to start a new project and designed taking into account web best practices.
 
@@ -32,18 +79,36 @@
 <details open>
 <summary>Table of Contents</summary>
 
-- [Demo](#demo)
-- [Upcoming: AstroWind 2.0 – We Need Your Vision!](#-upcoming-astrowind-20--we-need-your-vision)
-- [Getting started](#getting-started)
-  - [Project structure](#project-structure)
-  - [Commands](#commands)
-  - [Configuration](#configuration)
-  - [Deploy](#deploy)
-- [Frequently Asked Questions](#frequently-asked-questions)
-- [Related Projects](#related-projects)
-- [Contributing](#contributing)
-- [Acknowledgements](#acknowledgements)
-- [License](#license)
+- [KC Tech Support](#kc-tech-support)
+  - [Setup \& Installation](#setup--installation)
+    - [Requirements](#requirements)
+    - [Bootstrap](#bootstrap)
+    - [Install](#install)
+  - [Usage](#usage)
+    - [Task Runner](#task-runner)
+    - [Testing](#testing)
+      - [Validate](#validate)
+      - [Security](#security)
+      - [Linting, Formatting, Conventions, Style Guidelines, etc](#linting-formatting-conventions-style-guidelines-etc)
+    - [Building, Deploying, \& CI/CD](#building-deploying--cicd)
+  - [Todo](#todo)
+- [🚀 AstroWind](#-astrowind)
+  - [Demo](#demo)
+  - [🔔 Upcoming: AstroWind 2.0 – We Need Your Vision!](#-upcoming-astrowind-20--we-need-your-vision)
+  - [Getting started](#getting-started)
+    - [Project structure](#project-structure)
+    - [Commands](#commands)
+    - [Configuration](#configuration)
+      - [Customize Design](#customize-design)
+    - [Deploy](#deploy)
+      - [Deploy to production (manual)](#deploy-to-production-manual)
+      - [Deploy to Netlify](#deploy-to-netlify)
+      - [Deploy to Vercel](#deploy-to-vercel)
+  - [Frequently Asked Questions](#frequently-asked-questions)
+  - [Related projects](#related-projects)
+  - [Contributing](#contributing)
+  - [Acknowledgements](#acknowledgements)
+  - [License](#license)
 
 </details>
 
@@ -55,7 +120,7 @@
 
 <br>
 
-## 🔔 Upcoming: AstroWind 2.0 – We Need Your Vision!
+## 🔔 Upcoming: AstroWind 2.0 – We Need Your Vision
 
 We're embarking on an exciting journey with **AstroWind 2.0**, and we want you to be a part of it! We're currently taking the first steps in developing this new version and your insights are invaluable. Join the discussion and share your feedback, ideas, and suggestions to help shape the future of **AstroWind**. Let's make **AstroWind 2.0** even better, together!
 
