@@ -1,6 +1,8 @@
 # KC Tech Support
 Author: Evan Harmon
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/1c588173-9714-4ff8-9575-4e607c437728/deploy-status)](https://app.netlify.com/sites/kctechsupport/deploys)
+
 ## Setup & Installation
 
 ### Requirements
@@ -94,7 +96,7 @@ Alternatively, you can use `just` via the `justfile`
   - [Todo](#todo)
 - [🚀 AstroWind](#-astrowind)
   - [Demo](#demo)
-  - [🔔 Upcoming: AstroWind 2.0 – We Need Your Vision!](#-upcoming-astrowind-20--we-need-your-vision)
+  - [🔔 Upcoming: AstroWind 2.0 – We Need Your Vision](#-upcoming-astrowind-20--we-need-your-vision)
   - [Getting started](#getting-started)
     - [Project structure](#project-structure)
     - [Commands](#commands)
